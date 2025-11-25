@@ -39,10 +39,10 @@ export default function Home() {
                 </Button>
               </Link>
 
-              <Link href="/roteiros">
+              <Link href="/cadastra_roteiros">
                 <Button variant="ghost" size="lg" className="gap-2">
                   <NotebookPen className="w-5 h-5" />
-                  Meus Roteiros
+                  Criar roteiros
                 </Button>
               </Link>
             </div>
@@ -55,12 +55,34 @@ export default function Home() {
                 </Button>
               </Link>
 
+            <Link href="/perfil/roteiros">
+            <Button variant="outline" size="lg" className="gap-2">
+              <NotebookPen className="w-5 h-5" />
+              Meus Roteiros
+            </Button>
+            </Link>
+
+            <Link href="/mapa">
+            <Button variant="outline" size="lg" className="gap-2">
+              <NotebookPen className="w-5 h-5" />
+              Mapa
+            </Button>
+            </Link>
+
               <Link href="/cadastro">
                 <Button variant="outline" size="lg" className="gap-2">
                   <UserPlus className="w-5 h-5" />
                   Criar Conta
                 </Button>
               </Link>
+
+              <Link href="/solicitar-atracao">
+              <Button variant="outline" size="lg" className="gap-2">
+                <Wand2 className="w-5 h-5" />
+                Sugerir Atração
+              </Button>
+            </Link>
+            
             </div>
           </div>
 
@@ -72,6 +94,7 @@ export default function Home() {
                 Escolha os tipos de atrações que mais gosta e personalize sua experiência de viagem.
               </p>
             </div>
+
 
             <div className="bg-card p-6 rounded-lg border">
               <Wand2 className="w-12 h-12 text-primary mb-4" />
